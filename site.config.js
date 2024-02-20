@@ -5,20 +5,20 @@ const CONFIG = {
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "底辺理系高校生",
     bio: "日々の勉強の記録を残しています。",
-    email: "me@r1tsu.com",
+    email: "",
     linkedin: "",
     github: "",
     instagram: "q1cxy",
   },
   projects: [
     {
-      name: `q1cxy`,
+      name: ``,
       href: "",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "q1cxy log",
+    title: "q1cxy's Study log",
     description: "あいしぃの勉強ブログ",
   },
 
