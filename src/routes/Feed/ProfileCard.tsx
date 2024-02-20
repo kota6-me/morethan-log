@@ -14,12 +14,7 @@ const ProfileCard: React.FC<Props> = () => {
       </div>
       <div className="content">
         <div className="top">
-          <Image
-            src={CONFIG.profile.image}
-            fill
-            alt=""
-            className="rounded-full"
-          />
+          <Image src={CONFIG.profile.image} fill alt="" className="profImage" />
         </div>
         <div className="mid">
           <div className=" name">{CONFIG.profile.name}</div>
@@ -58,6 +53,9 @@ const StyledWrapper = styled.div`
         display: block;
         padding-bottom: 100%;
       }
+    }
+    .profImg {
+      border-radius: 50%;
     }
     .mid {
       display: flex;
