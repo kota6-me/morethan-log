@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: ``,
-      href: "",
+      name: `あいしぃの勉強ブログ - 当サイト`,
+      href: "https://q1cxy.netlify.app",
     },
   ],
   // blog setting (required)

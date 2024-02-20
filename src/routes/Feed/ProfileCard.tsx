@@ -54,7 +54,7 @@ const StyledWrapper = styled.div`
         padding-bottom: 100%;
       }
     }
-    .profImg {
+    .profImage {
       border-radius: 50%;
     }
     .mid {
