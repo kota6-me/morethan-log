@@ -8,9 +8,9 @@ const Footer: React.FC<Props> = () => {
   const router = useRouter()
   return (
     <StyledWrapper>
-      <a onClick={() => router.push("/")}>← Back</a>
+      <a onClick={() => router.push("/")}>← メニューに戻る</a>
       <a onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-        ↑ Top
+        ↑ ページの上部に戻る
       </a>
     </StyledWrapper>
   )

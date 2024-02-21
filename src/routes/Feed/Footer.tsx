@@ -13,12 +13,8 @@ type Props = {
 const Footer: React.FC<Props> = ({ className }) => {
   return (
     <StyledWrapper className={className}>
-      <a
-        href={`https://github.com/${CONFIG.profile.github}`}
-        target="_blank"
-        rel="noreferrer"
-      >
-        © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
+      <a href={`https://github.com/ritsu-me`} target="_blank" rel="noreferrer">
+        &copy;Zone Project {from === y || !from ? y : `${from} - ${y}`}
       </a>
     </StyledWrapper>
   )
