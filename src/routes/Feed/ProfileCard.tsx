@@ -29,9 +29,6 @@ const ProfileCard: React.FC<Props> = () => {
 export default ProfileCard
 
 const StyledWrapper = styled.div`
-  >.profImage{
-    border-radius: 50%
-  }
   > .title {
     padding: 0.25rem;
     margin-bottom: 0.75rem;

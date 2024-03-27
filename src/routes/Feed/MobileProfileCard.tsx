@@ -55,6 +55,9 @@ const StyledWrapper = styled.div`
       display: flex;
       gap: 0.5rem;
       align-items: center;
+      > .mobileProfImage {
+        border-radius: 50%;
+      }
       > .wrapper {
         height: fit-content;
         > .top {
@@ -75,8 +78,5 @@ const StyledWrapper = styled.div`
         }
       }
     }
-  }
-  > .mobileProfImage {
-    border-radius: 50%;
   }
 `
