@@ -42,6 +42,9 @@ const StyledWrapper = styled.div`
     @media (min-width: 768px) {
       padding: 1rem;
     }
+    .profImage{
+      border-radius: 50%
+    }
     @media (min-width: 1024px) {
       padding: 1rem;
     }
