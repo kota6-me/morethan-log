@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 import React from "react"
 import { Emoji } from "src/components/Emoji"
 import { useTagsQuery } from "src/hooks/useTagsQuery"
+import TagText from "./TagText.tsx";
 
 type Props = {}
 
@@ -37,17 +38,7 @@ const TagList: React.FC<Props> = () => {
       <div className="top">
         <Emoji>🏷️</Emoji> タグ
       </div>
-      <div className="list">
-        {Object.keys(data).map((key) => (
-          <a
-            key={key}
-            data-active={key === currentTag}
-            onClick={() => handleClickTag(key)}
-          >
-            {key}
-          </a>
-        ))}
-      </div>
+      <TagText arg={data}/>
     </StyledWrapper>
   )
 }

@@ -13,7 +13,7 @@ type Props = {
 const Footer: React.FC<Props> = ({ className }) => {
   return (
     <StyledWrapper className={className}>
-      <a href={`https://github.com/ritsu-me`} target="_blank" rel="noreferrer">
+      <a href={`https://github.com/kota6-me`} target="_blank" rel="noreferrer">
         &copy;Zone Project {from === y || !from ? y : `${from} - ${y}`}
       </a>
     </StyledWrapper>
