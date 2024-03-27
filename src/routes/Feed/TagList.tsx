@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 import React from "react"
 import { Emoji } from "src/components/Emoji"
 import { useTagsQuery } from "src/hooks/useTagsQuery"
-import TagText from "./TagText.tsx";
+import TagText from "./TagText";
 
 type Props = {}
 
