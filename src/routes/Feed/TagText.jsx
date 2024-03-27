@@ -1,4 +1,4 @@
-function TagText({arg}: object){
+function TagText({arg}){
   if(Object.keys(arg).length === 0){
     return(<div className="list">
         <p>タグがありません</p>
