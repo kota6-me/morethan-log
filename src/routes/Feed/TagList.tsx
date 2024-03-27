@@ -38,7 +38,17 @@ const TagList: React.FC<Props> = () => {
       <div className="top">
         <Emoji>🏷️</Emoji> タグ
       </div>
-      <TagText arg={data}/>
+      <div className="list">
+        {Object.keys(data).map((key) => (
+          <a
+          key={key}
+          data-active={key === currentTag}
+          onClick={() => handleClickTag(key)}
+          >
+            {key}
+          </a>
+        ))}
+      </div>
     </StyledWrapper>
   )
 }
