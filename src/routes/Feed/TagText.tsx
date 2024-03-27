@@ -1,5 +1,4 @@
-function TagText({arg: object}){
-  console.log(typeof arg)
+function TagText({arg}: object){
   if(Object.keys(arg).length === 0){
     return(<div className="list">
         <p>タグがありません</p>
